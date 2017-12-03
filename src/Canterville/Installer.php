@@ -61,9 +61,9 @@ class Installer
 
 
   /**
-   * Installation CasperJS on SlimmerJS
+   * Installation CasperJS on SlimerJS
    */
-  public static function casperOnSlimmer(Event $event)
+  public static function casperOnSlimer(Event $event)
   {
     self::slimer($event);
     self::casper($event);
